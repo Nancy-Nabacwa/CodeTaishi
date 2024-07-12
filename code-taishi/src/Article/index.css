@@ -1,0 +1,70 @@
+.modal-content {
+    background-color: #AAA7CB;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .modal-content h2 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .modal-content form {
+    margin-top: 50px;
+    padding: 50px;
+  }
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .article-div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4%;
+}
+.about-article-text{
+    font-family:
+    "irish-glover";
+    width: 80%;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+button{
+  background-color: red;
+  width: 20%;
+  height: 9%;
+  border: none;
+  border-radius: 35px;
+  font-size: 29px;
+  text-shadow: 3px;
+  color: antiquewhite;
+
+}
+body{
+    background-color:rgb(240, 240, 248)
+}
+
+
+.point{
+  font-family:
+    "irish-glover";
+}
+
+
+.image{
+  border: none;
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-left: 50px;
+  height: 400px;
+  width: 560px;
+}

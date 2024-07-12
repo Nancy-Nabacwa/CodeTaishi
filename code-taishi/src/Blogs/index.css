@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+
+.modal-content {
+    background-color: #eae9f0;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+
+  }
+  .modal-content h2 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .modal-content form {
+    margin-top: 50px;
+    padding: 50px;
+  }
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: -19%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+  }
+
+  .blog-div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4%;
+}
+.blog-container{
+  display: flex;
+  justify-content: space-evenly;
+    gap: 4%;
+  /* flex-direction: row; */
+} 
+
+.about-book-text{
+  font-family: 'Karma',sans-serif;
+    width: 80%;
+    font-size: 1.5rem;
+    margin-top: 20%;
+}
+
+.blog-heading{
+  margin-bottom: -15%;
+  font-family: 'Karma',sans-serif;
+}
+.blog{
+  margin-top: 6%;
+}
+
+ .read-more-btn{
+    background-color: red;
+    width: 20%;
+    height: 9%;
+    border: none;
+    border-radius: 35px;
+    font-size: 29px;
+    text-shadow: 3px;
+    color: antiquewhite;
+
+}
+body{
+    background-color:rgb(240, 240, 248) 
+}
+
+.article-cards{
+  display: flex;
+  gap: 4%;
+  flex-direction: column;
+  
+
+}
+.book-cover{
+  border: none;
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+
+.theme-one-text{
+  font-size: 1.4rem;
+  border: solid;
+  padding: 3px;
+  margin: 2px 2px;
+  font-family: 'Karma',sans-serif;
+
+}
+.theme-two{
+  font-size: 1.4rem;
+  border: none;
+  font-family: 'Karma',sans-serif;
+  padding: 3px;
+  margin: 2px 2px;
+}
+.theme-three{
+  font-size: 1.4rem;
+  font-family: 'Karma',sans-serif;
+  border: none;
+  padding: 3px;
+  margin: 2px 2px; 
+}
+.cancel-btn{
+  padding: 30px;
+  margin-top: 3px;
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 359px) {
+
+  .modal-content {
+    background-color: #eae9f0;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+
+  }
+  .modal-content h2 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .modal-content form {
+    margin-top: 50px;
+    padding: 50px;
+  }
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: -19%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+  }
+
+  .blog-div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4%;
+}
+
+.about-book-text{
+  font-family: 'Karma',sans-serif;
+    width: 80%;
+    font-size: 1.5rem;
+    margin-top: 20%;
+}
+
+.blog-heading{
+  margin-bottom: -15%;
+  font-family: 'Karma',sans-serif;
+}
+.blog{
+  margin-top: 6%;
+}
+
+button{
+    background-color: red;
+    width: 20%;
+    height: 9%;
+    border: none;
+    border-radius: 35px;
+    font-size: 29px;
+    text-shadow: 3px;
+    color: antiquewhite;
+
+}
+body{
+    background-color:rgb(240, 240, 248) 
+}
+
+.article-cards{
+  display: flex;
+  gap: 4%;
+  flex-direction: row;
+  
+
+}
+.book-cover{
+  border: none;
+  border-radius: 40px;
+  margin-top: 4px;
+  margin-left: -5px;
+  width: 20px;
+  height: 20px;
+}
+
+
+.theme-one-text{
+  font-size: 1.4rem;
+  border: solid;
+  padding: 3px;
+  margin: 2px 2px;
+  font-family: 'Karma',sans-serif;
+
+}
+.theme-two{
+  font-size: 1.4rem;
+  border: none;
+  font-family: 'Karma',sans-serif;
+  padding: 3px;
+  margin: 2px 2px;
+}
+.theme-three{
+  font-size: 1.4rem;
+  font-family: 'Karma',sans-serif;
+  border: none;
+  padding: 3px;
+  margin: 2px 2px; 
+}
+.blog-container{
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 380px) {
+  .modal-content {
+    background-color: #eae9f0;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+
+  }
+  .modal-content h2 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .modal-content form {
+    margin-top: 50px;
+    padding: 50px;
+  }
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: -19%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+  }
+
+  .blog-div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4%;
+}
+
+.about-book-text{
+  font-family: 'Karma',sans-serif;
+    width: 60%;
+    font-size: 0.6rem;
+    margin-top: 20%;
+    margin-left: 2%;
+}
+
+.blog-heading{
+  margin-bottom: -15%;
+  font-family: 'Karma',sans-serif;
+}
+.blog{
+  margin-top: 6%;
+}
+
+button{
+    background-color: red;
+    width: 20px;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    font-size: 29px;
+    text-shadow: 3px;
+    color: antiquewhite;
+
+}
+body{
+    background-color:rgb(240, 240, 248) 
+}
+
+.article-cards{
+  display: flex;
+  gap: 4%;
+  flex-direction: row;
+  
+
+}
+.book-cover{
+  border: none;
+  border-radius: 40px;
+  margin-top: 4px;
+  margin-left: -5px;
+  width: 20px;
+  height: 20px;
+}
+
+
+.theme-one-text{
+  font-size: 1.4rem;
+  border: solid;
+  padding: 3px;
+  margin: 2px 2px;
+  font-family: 'Karma',sans-serif;
+
+}
+.theme-two{
+  font-size: 1.4rem;
+  border: none;
+  font-family: 'Karma',sans-serif;
+  padding: 3px;
+  margin: 2px 2px;
+}
+.theme-three{
+  font-size: 1.4rem;
+  font-family: 'Karma',sans-serif;
+  border: none;
+  padding: 3px;
+  margin: 2px 2px; 
+}
+.blog-container{
+  display: flex;
+  flex-direction: column;
+} 
+}

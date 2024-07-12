@@ -1,0 +1,468 @@
+#heading{
+    padding: 10px 740px;
+    font-size: 45px;
+    font-family: 'Irish Grover';
+}
+
+#the{
+    font-weight: lighter;
+}
+
+.profile{
+border-radius: 20px 20px 0px 0px;
+height: 250px;
+width: 250px;
+
+}
+
+.name{
+    font-size: 25px;
+    padding: 0px 55px;
+    color: white;
+    font-family: 'Irish Grover';
+}
+
+.viewButton{
+padding: 15px 20px;
+border-radius: 30px;
+margin-left: 40px;
+font-size: 15px;
+width: 150px;
+height: 50px;
+color: white;
+font-family: 'Irish Grover';
+border: solid 2px white;
+background-color: rgb(2, 2, 44);
+}
+
+.member{
+    background-color: rgb(2, 2, 44);
+    padding: 20px 20px 20px 20px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.team{
+    display: flex;
+    gap: 200px;
+    padding: 5px 280px;
+}
+
+@media only screen and (min-width:200px) and (max-width:299px){
+
+    #heading{
+        padding: 10px 10px 10px 45px;
+        font-size: 25px;
+    }
+    
+    
+    .profile{
+    border-radius: 20px 20px 0px 0px;
+    height: 230px;
+    width: 230px;
+    
+    }
+    
+    .name{
+        font-size: 23px;
+        padding: 0px 10px 0px 60px;
+    }
+    
+    .viewButton{
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-left: 55px;
+    font-size: 13px;
+    width: 120px;
+    height: 30px;
+    }
+    
+    .member{
+        background-color: rgb(2, 2, 44);
+        padding: 10px 10px 10px 10px;
+        width: 230px;
+        border-radius: 10px;
+    }
+    
+    .team{
+        flex-direction: column;
+        gap: 8px;
+        padding: 5px 15px;
+    }
+    
+
+}
+
+@media only screen and (min-width:300px) and (max-width:399px){
+
+    #heading{
+        padding: 10px 20px 10px 72px;
+        font-size: 30px;
+    }
+    
+    
+    .profile{
+    border-radius: 20px 20px 0px 0px;
+    height: 250px;
+    width: 250px;
+    
+    }
+    
+    .name{
+        font-size: 25px;
+        padding: 0px 10px 0px 60px;
+    }
+    
+    .viewButton{
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-left: 50px;
+    font-size: 15px;
+    }
+    
+    .member{
+        background-color: rgb(2, 2, 44);
+        padding: 20px 20px 20px 20px;
+        width: 250px;
+        border-radius: 10px;
+    }
+    
+    .team{
+        flex-direction: column;
+        gap: 8px;
+        padding: 5px 43px;
+    }
+    
+
+}
+
+@media only screen and (min-width:400px) and (max-width:499px){
+
+    #heading{
+        padding: 10px 20px 10px 90px;
+        font-size: 30px;
+        font-family: 'Irish Grover';
+    }
+    
+    #the{
+        font-weight: lighter;
+    }
+    
+    .profile{
+    border-radius: 20px 20px 0px 0px;
+    height: 250px;
+    width: 250px;
+    
+    }
+    
+    .name{
+        font-size: 30px;
+        padding: 0px 10px 0px 60px;
+    }
+    
+    .viewButton{
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    }
+    
+    .member{
+        background-color: rgb(2, 2, 44);
+        padding: 20px 20px 20px 20px;
+        width: 250px;
+        border-radius: 10px;
+    }
+    
+    .team{
+        flex-direction: column;
+        gap: 8px;
+        padding: 5px 60px;
+    }
+    
+
+}
+
+
+@media only screen and (min-width:500px) and (max-width:699px){
+
+    #heading{
+        padding: 10px 20px 10px 150px;
+        font-size: 30px;
+    }
+    
+    #the{
+        font-weight: lighter;
+    }
+    
+    .profile{
+    border-radius: 20px 20px 0px 0px;
+    height: 150px;
+    width: 150px;
+    
+    }
+    
+    .name{
+        font-size: 20px;
+        padding: 0px 10px 0px 20px;}
+    
+    .viewButton{
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-left: 30px;
+    font-size: 10px;
+    width: 70px;
+    height: 30px;
+    }
+    
+    .member{
+        background-color: rgb(2, 2, 44);
+        padding: 5px 5px 10px 10px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    .team{
+        display: flex;
+        gap: 8px;
+        padding: 30px 10px;
+    }
+    
+
+}
+
+@media only screen and (min-width:700px) and (max-width:799px){
+
+    #heading{
+        padding: 10px 40px 10px 220px;
+        font-size: 45px;
+        font-family: 'Irish Grover';
+    }
+    
+    #the{
+        font-weight: lighter;
+    }
+    
+    .profile{
+    border-radius: 20px 20px 0px 0px;
+    height: 220px;
+    width: 220px;
+    
+    }
+    
+    .name{
+        font-size: 30px;
+        padding: 0px 10px 0px 40px;}
+    
+    .viewButton{
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 40px;
+    font-size: 20px;}
+    
+    .member{
+        background-color: rgb(2, 2, 44);
+        padding: 10px 10px 10px 10px;
+        width: 250px;
+        border-radius: 30px;
+    }
+    
+    .team{
+        display: flex;
+        gap: 10px;
+        padding: 30px 10px;
+    }
+    
+
+}
+
+@media only screen and (min-width:800px) and (max-width:899px){
+
+    #heading{
+        padding: 20px 170px;
+        font-size: 60px;
+        font-family: 'Irish Grover';
+    }
+    
+    #the{
+        font-weight: lighter;
+    }
+    
+    .profile{
+    border-radius: 20px 20px 0px 0px;
+    height: 240px;
+    width: 240px;
+    
+    }
+    
+    .name{
+        font-size: 35px;
+        padding: 0px 10px 0px 40px;
+    }
+    
+    .viewButton{
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    }
+    
+    .member{
+        background-color: rgb(2, 2, 44);
+        padding: 10px 10px 10px 10px;
+        width: 250px;
+        border-radius: 30px;
+    }
+    
+    .team{
+        display: flex;
+        gap: 10px;
+        padding: 30px 10px;
+    }
+    
+
+}
+
+@media only screen and (min-width:900px) and (max-width:999px){
+
+    #heading{
+        padding: 20px 225px 2px 225px;
+        font-size: 60px;
+        font-family: 'Irish Grover';
+    }
+    
+    #the{
+        font-weight: lighter;
+    }
+    
+    .profile{
+    border-radius: 20px 20px 0px 0px;
+    height: 250px;
+    width: 250px;
+    
+    }
+    
+    .name{
+        font-size: 35px;
+        padding: 0px 10px 0px 40px;
+    }
+    
+    .viewButton{
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    }
+    
+    .member{
+        background-color: rgb(2, 2, 44);
+        padding: 10px 10px 10px 10px;
+        width: 250px;
+        border-radius: 30px;
+    }
+    
+    .team{
+        display: flex;
+        gap: 20px;
+        padding: 70px 30px;
+    }
+    
+
+}
+
+@media only screen and (min-width:1000px) and (max-width:1049px){
+
+    #heading{
+        padding: 2px 380px;
+        font-size: 30px;
+        font-family: 'Irish Grover';
+    }
+    
+    #the{
+        font-weight: lighter;
+    }
+    
+    .profile{
+    border-radius: 20px 20px 0px 0px;
+    height: 180px;
+    width: 180px;
+    
+    }
+    
+    .name{
+        font-size: 17px;
+        padding: 0px 10px 0px 55px;
+    }
+    
+    .viewButton{
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-left: 45px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    }
+    
+    .member{
+        background-color: rgb(2, 2, 44);
+        padding: 10px 10px 10px 10px;
+        width: 180px;
+        border-radius: 30px;
+    }
+    
+    .team{
+        display: flex;
+        gap: 60px;
+        padding: 5px 150px;
+    }
+    
+
+}
+
+@media only screen and (min-width:1050px) and (max-width:1300px){
+
+    #heading{
+        padding: 10px 500px;
+        font-size: 35px;
+        font-family: 'Irish Grover';
+    }
+    
+    #the{
+        font-weight: lighter;
+    }
+    
+    .profile{
+    border-radius: 20px 20px 0px 0px;
+    height: 210px;
+    width: 220px;
+    
+    }
+    
+    .name{
+        font-size: 25px;
+        padding: 0px 10px 0px 55px;
+    }
+    
+    .viewButton{
+    padding: 5px 20px;
+    border-radius: 30px;
+    margin-left: 40px;
+    font-size: 15px;
+    background-color: rgb(2, 2, 44);
+    }
+    
+    .member{
+        background-color: rgb(2, 2, 44);
+        padding: 10px 10px 10px 10px;
+        width: 220px;
+        border-radius: 30px;
+    }
+    
+    .team{
+        display: flex;
+        gap: 60px;
+        padding: 5px 220px;
+    }
+    
+
+}
