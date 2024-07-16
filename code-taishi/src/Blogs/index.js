@@ -8,7 +8,13 @@ import bornAcrimeBlog from '../Assets/bornAcrimeBlog.jpg';
 // import Article from '../Article';
 
 
-function Blogs(){
+import usePageView from "../UsePageView/hooks";
+
+
+
+
+const Blogs = () =>{
+  usePageView();
     const [showModal,setShowModal]=useState(false)
     
     return(

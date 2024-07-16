@@ -1,7 +1,13 @@
 import './index.css'
 import Navbar from '../Navbar';
 
+import usePageView from "../UsePageView/hooks";
+
+
+
+
 const Resume = () =>{
+  usePageView();
     return(
         <div>
             <Navbar />

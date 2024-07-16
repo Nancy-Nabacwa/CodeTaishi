@@ -2,7 +2,13 @@ import "./index.css";
 import Navbar from "../Navbar";
 
 
-const Videos = () => {
+import usePageView from "../UsePageView/hooks";
+
+
+
+
+const Videos = () =>{
+  usePageView();
   return (
     <div className="container">
       <Navbar/>
