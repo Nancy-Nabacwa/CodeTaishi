@@ -2,8 +2,13 @@ import "./index.css";
 import multimedia from "../Assets/multimedia.png"
 import Navbar from "../Navbar";
 import { Link } from "react-router-dom";
+import usePageView from "../UsePageView/hooks";
+
+
+
 
 const Landingpage = () =>{
+  usePageView();
   return (
     <div className="landingpagecontent">
       <Navbar/> 
