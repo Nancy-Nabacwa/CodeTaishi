@@ -91,6 +91,7 @@ function Blogs() {
                             </div>
 
 
+<<<<<<< HEAD
                             <div className='theme-three'>
                               <hr/>
                               <br/>
@@ -212,6 +213,16 @@ function Blogs() {
                 </div>
             </div>
 
+=======
+import usePageView from "../UsePageView/hooks";
+
+
+
+
+const Blogs = () =>{
+  usePageView();
+    const [showModal,setShowModal]=useState(false)
+>>>>>>> bd1ab1540db7dda1e8c96546c817fca488359080
     
 
             <Article />
