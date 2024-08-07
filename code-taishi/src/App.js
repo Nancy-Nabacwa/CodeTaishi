@@ -20,10 +20,10 @@ const App =()=>{
 
           </>
         } />
- <Route path="/Videos" element={<Videos/>}/>
+        <Route path="/Videos" element={<Videos/>}/>
         <Route path="/Podcast" element={<Podcast/>}/>
         <Route path="/Blogs" element={<Blogs/>}/>
-        <Route path="/AboutUs" element={<Resume/>}/>
+        <Route path="/Resume" element={<Resume/>}/>
         
 
         </Routes>

@@ -46,7 +46,7 @@ const Navbar = () => {
       <Link to="/Blogs" className='text-link' activeClassName="active-link">
         <div className='link'>Blogs</div>
       </Link>
-      <Link to="/AboutUs" className='text-link' activeClassName="active-link">
+      <Link to="/Resume" className='text-link' activeClassName="active-link">
         <div className='link'>About Us</div>
       </Link>
       </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
       <Link to="/Blogs" className='text-link'>
         <div className='link'>Blogs</div>
       </Link>
-      <Link to="/AboutUs" className='text-link'>
+      <Link to="/Resume" className='text-link'>
         <div className='link'>About Us</div>
       </Link>
             </div>
