@@ -2,13 +2,11 @@ import { useState } from 'react'
 import './index.css'
 import Navbar from '../Navbar'
 
-import usePageView from "../UsePageView/hooks";
 
 
 
 
 const Resume = () =>{
-<<<<<<< HEAD
 
 
     const [image, setImage] = useState("")
@@ -22,9 +20,6 @@ const Resume = () =>{
 
     const imageCancel = document.getElementById('cv')
 
-=======
-  usePageView();
->>>>>>> bd1ab1540db7dda1e8c96546c817fca488359080
     return(
         <div>
             <Navbar/>

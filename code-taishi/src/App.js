@@ -5,13 +5,9 @@ import Videos from "./Videos"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Resume from "./Resume";
-import initializeGoogle from './GoogleAnalytics';
-import { useEffect } from 'react';
+
 
 function App() {
-  useEffect(() => {
-    initializeGoogle();
-  }, []);
   return(
     <div>
       <Router>

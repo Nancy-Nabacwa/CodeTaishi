@@ -3,13 +3,13 @@ import microphone from '../Assets/microphone.jpg'
 import './index.css';
 import Navbar from "../Navbar";
 
-import usePageView from "../UsePageView/hooks";
+
 
 
 
 
 const Podcast = () =>{
-  usePageView();
+
     return(
        <>
        <Navbar/>

@@ -18,8 +18,9 @@
     font-family: "Irish Grover", serif;
     width: 60%;
     margin: -5%;
+    margin-left: 0;
     color: #02476E;
-    margin-left: 0%;
+  
     font-size: 45px;
 }
 .landing-text-paragraph{
@@ -32,16 +33,16 @@
 
 
 .downloadButton{
-padding: 20px;
-margin-top: 5%;
+padding: 18px;
+margin-top: 2%;
 margin-left: 0px;
 border-radius: 20px;
-height: 105px;
+height: 100px;
 width: 280px;
 background-color: #E33333;
 color: white;
 border: none;
-font-size: 40px;
+font-size: 38px;
 }
 
 .wezeshawelcometext{
@@ -55,13 +56,11 @@ font-size: 40px;
     /* background-color: #E33333;   */
     border-radius: 50%;   
     margin-left: -42%;
-    margin-top: -50px;    
+      
     object-fit: cover;
    
 }
-.landingpagecontent{
-    margin-left: 6.2%;
-}
+
     @media only screen and (min-width: 280px) and (max-width: 359px) {
 
     .navbar{
