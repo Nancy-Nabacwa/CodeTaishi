@@ -38,14 +38,14 @@ const Videos = () =>{
       
             <p className="video-title">How Pinterest Was Developed </p>
            
-            <a href="https://www.loom.com/share/d44aac0bc3d641cd9533e4c89e9c4f02">
+            <a href="https://www.loom.com/share/6ea4062e94204312b73fea716862031e">
               <img
               id="thumbnail"
-                alt="Part 2"
+                alt="Part 1"
                 style={{ maxWidth: "200px" }}
-                src="https://cdn.loom.com/sessions/thumbnails/d44aac0bc3d641cd9533e4c89e9c4f02-1720675499825-with-play.gif"
+                src="https://cdn.loom.com/sessions/thumbnails/6ea4062e94204312b73fea716862031e-1720671560360-with-play.gif"
               />
-            </a>
+            </a> 
           </div>
 
           <div className="part3">

@@ -7,24 +7,26 @@
   margin-top: -0.5%;
   font-family: "Irish Grover", serif;
 
-  /* text-align: center; */
+  text-align: center;
 }
-.container {
+/* .container {
   margin-left: 5%;
-}
+} */
 .video-text {
   font-family: "Karma", sans-serif;
   margin-top: -1%;
   color: black;
+  text-align: center;
 }
 #vids1 {
   display: flex;
+ padding-left: 160px;
 }
 #vids2 {
   display: flex;
-  margin-top: 3%;
+  margin-top: 5%;
   gap: 12%;
-  margin-left: 5%;
+  padding-left: 250px;
 }
 #vids1 {
   display: flex;

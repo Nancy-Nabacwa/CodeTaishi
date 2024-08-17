@@ -66,6 +66,7 @@ background-color: rgb(2, 2, 44);
     background-color: rgba(136, 136, 148, 0.497);
     padding: 20px 50px;
     z-index: 1;
+    display: none;
     margin-left: 550px;
 }
 
@@ -74,13 +75,15 @@ background-color: rgb(2, 2, 44);
     top: 20px;
     z-index: 1;
     right: 610px;
-    color: #f1f1f1;
+    /* color: #f1f1f1; */
+    color: black;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    display: none;
     cursor: pointer;
   }
-
+  
 @media only screen and (min-width:200px) and (max-width:299px){
 
     #heading{
@@ -740,7 +743,7 @@ background-color: rgb(2, 2, 44);
         margin-left: 300px;
     }
     
-    .close {
+    /* .close {
         position: absolute;
         top: 35px;
         z-index: 1;
@@ -750,6 +753,20 @@ background-color: rgb(2, 2, 44);
         font-weight: bold;
         transition: 0.3s;
         cursor: pointer;
+      } */
+
+      .close {
+        position: absolute;
+        top: 35px;
+        z-index: 1;
+        right: 400px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+        cursor: pointer;
+        display: none;
+        position: fixed;
       }
 
 }
