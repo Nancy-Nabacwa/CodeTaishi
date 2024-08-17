@@ -64,7 +64,7 @@ const Resume = () =>{
 
             </div>
 
-                <div className='team'>
+                <div className='team2'>
 
             <div className='member'>
                 <img src="./Images/Nancy.png" alt="Nancy" className="profile"/>
@@ -87,7 +87,7 @@ const Resume = () =>{
             </div>
 
 
-            <div className='member'>
+            {/* <div className='member'>
                 <img src="./Images/Shalom.png" alt="Shalom" className="profile"/>
                 <h2 className='name'>Shalom U.</h2>
                <button className='viewButton'  onClick= {() => {check("Shalom.png");
@@ -95,7 +95,7 @@ const Resume = () =>{
                     imageCancel.style.display = "block"
                    }
                 }} id='click'><b>VIEW CV</b></button>
-            </div>
+            </div> */}
 
             </div>
 

@@ -54,6 +54,12 @@ background-color: rgb(2, 2, 44);
     padding: 5px 280px;
 }
 
+.team2{
+    display: flex;
+    gap: 200px;
+    padding: 5px 500px;
+}
+
 #the-team{
     position: relative;
     z-index: 0;
