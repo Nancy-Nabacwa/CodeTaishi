@@ -106,6 +106,20 @@ body{
   padding-top: 164px;
 }
 
+.app-benefits{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    padding-top: 124px;
+}
+
+.creativity-theme{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media (min-width: 280px) and (max-width: 359px) {
   .modal-content {
     background-color: white;

@@ -1,6 +1,7 @@
 import "./index.css";
 import { useState, useEffect, useRef } from "react";
 import trashion from "../Assets/trashion.jpeg";
+import SwahiliPal from "../Assets/SwahiliPalLogo.png"
 
 function Article() {
   const [showModal, setShowModal] = useState(false);
@@ -75,7 +76,16 @@ function Article() {
           </div>
         </div>
       </div>
-    </div>
+
+      
+      
+     </div>
+
+    
+
+    
+
+
   );
 }
 

@@ -16,7 +16,7 @@ const Landingpage = () =>{
             <div className="landing-left">
           
               <div className="landing-text-heading">
-                <h1>Code Taishi</h1>
+                <h1>Taishi</h1>
               </div>
 
               <div className="landing-text-paragraph">

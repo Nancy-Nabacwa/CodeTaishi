@@ -2,6 +2,7 @@
 import Navbar from '../Navbar';
 import './index.css';
 import Article from '../Article';
+import FinalProject from '../FinalProject';
 import { useState, useEffect, useRef } from 'react';
 import bornAcrimeBlog from '../Assets/bornAcrimeBlog.jpg';
 
@@ -183,6 +184,9 @@ function Blogs() {
 
                             </div>
 
+
+
+
                            
                         </div>
                     </div>
@@ -215,6 +219,7 @@ function Blogs() {
     
 
             <Article />
+            <FinalProject/>
         </div>
     );
 }
